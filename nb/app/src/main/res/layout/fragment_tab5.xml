@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.navigation.com.nb.Tab5"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scaleType="fitXY"
+            android:layout_marginTop="110dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="match_parent"
+                    android:background="#0000"
+                    android:scaleType="fitXY"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/sbi_atm"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+
+                    android:text="SBI ATM"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:fontFamily="Arial"
+                    android:gravity="center_vertical"
+                    android:textSize="23dp"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/sbibank"
+                    android:background="#0000"
+                    android:adjustViewBounds="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="SBI Bank"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+
+                    android:fontFamily="Arial"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:textSize="23dp"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="match_parent"
+
+                    android:scaleType="fitXY"
+                    android:background="#0000"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/canaratm"
+                    android:layout_marginTop="2dp"
+                    android:adjustViewBounds="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="Canara ATM"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+
+                    android:fontFamily="Arial"
+                    android:gravity="center_vertical"
+                    android:textSize="23dp"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/pnbatm"
+                    android:background="#0000"
+                    android:layout_marginTop="2dp"
+                    android:adjustViewBounds="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="PnB ATM"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:fontFamily="Arial"
+                    android:gravity="center_vertical"
+                    android:textSize="23dp"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/postofficencanara"
+                    android:background="#0000"
+                    android:layout_marginTop="2dp"
+                    android:adjustViewBounds="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="Post Office and Canara Bank"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+
+                    android:fontFamily="Arial"
+                    android:gravity="center_vertical"
+                    android:textSize="23dp"
+                    />
+            </FrameLayout>
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/cse"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

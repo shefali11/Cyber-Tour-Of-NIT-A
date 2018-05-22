@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tour NITA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab1">Hello blank fragment1</string>
+    <string name="tab2">Hello blank fragment2</string>
+    <string name="tab3">Hello blank fragment3</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="next"><![CDATA[>]]></string>
+    <string name="go">Go</string>
+</resources>

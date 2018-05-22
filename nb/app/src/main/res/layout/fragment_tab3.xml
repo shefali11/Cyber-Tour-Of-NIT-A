@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.navigation.com.nb.Tab3"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scaleType="fitXY"
+            android:layout_marginTop="110dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="match_parent"
+                    android:background="#0000"
+                    android:scaleType="fitXY"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/gomti"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="Gomti Hostel"
+
+                    android:fontFamily="Arial"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:textSize="23dp"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                android:layout_marginTop="2dp"
+                app:srcCompat="@drawable/aryabhatta"
+                android:background="#0000"
+                android:adjustViewBounds="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="Aryabhatta Hostel"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+                    android:fontFamily="Arial"
+                    android:gravity="center_vertical"
+                    android:textSize="23dp"
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+
+                android:scaleType="fitXY"
+                android:background="#0000"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/raima"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Raima Hostel"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:fontFamily="Arial"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/dhalai"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:text="Dhalai Hostel"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:fontFamily="Arial"
+            android:gravity="center_vertical"
+            android:textSize="23dp"
+            />
+        </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/gargi"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Gargi Hostel"
+                android:fontFamily="Arial"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/cse"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+    </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

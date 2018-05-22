@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context="com.navigation.com.nb.Tab5"
+    >
+
+<!-- TODO: Update blank fragment layout -->
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="top">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scaleType="fitXY"
+        android:layout_marginTop="110dp">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="match_parent"
+                android:background="#0000"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                android:layout_marginTop="2dp"
+                app:srcCompat="@drawable/shopping"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Shopping Complex"
+                android:textColor="@color/white"
+
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:fontFamily="Arial"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                android:layout_marginTop="2dp"
+                app:srcCompat="@drawable/nitah"
+                android:background="#0000"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+
+                android:fontFamily="Arial"
+                android:text="NITA Hospital"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+
+                android:scaleType="fitXY"
+                android:background="#0000"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/sportscomplex"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+
+                android:fontFamily="Arial"
+                android:text="Sports Complex"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/ground"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Play Ground"
+
+                android:fontFamily="Arial"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/foodcourt"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Food Court"
+
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:fontFamily="Arial"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/kp"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Knowledge Park"
+                android:textColor="@color/white"
+
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:fontFamily="Arial"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/library"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Library"
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+
+                android:fontFamily="Arial"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/old_gh"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Old Guest House"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+
+                android:fontFamily="Arial"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/igh"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="International Guest House"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/workshop"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Workshop"
+
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:fontFamily="Arial"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/civil_wh"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Civil Workshop"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+
+                android:fontFamily="Arial"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/audi"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Auditorium"
+
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:fontFamily="Arial"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                />
+        </FrameLayout>
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cse"
+            android:background="#0000"
+            android:layout_marginTop="2dp"
+            android:adjustViewBounds="true"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
+

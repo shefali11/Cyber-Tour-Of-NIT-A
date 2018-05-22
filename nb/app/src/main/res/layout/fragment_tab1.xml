@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.navigation.com.nb.Tab1"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scaleType="fitXY"
+            android:layout_marginTop="110dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/frame">
+                <ImageButton
+                    android:id="@+id/imageBut"
+                    android:layout_width="match_parent"
+                    android:background="#0000"
+                    android:scaleType="fitXY"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="2dp"
+                    app:srcCompat="@drawable/cse"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+                    android:fontFamily="Arial"
+                    android:text="CSE And EI Department"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:textSize="23dp"
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/frame1">
+                <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                android:layout_marginTop="2dp"
+                app:srcCompat="@drawable/ece"
+                android:background="#0000"
+                android:adjustViewBounds="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="ECE And EE Department"
+                    android:textColor="@color/white"
+
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:textSize="23dp"
+                    android:fontFamily="Arial"
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/frame2">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:background="#0000"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/mba"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="MBA And Civil Department"
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                android:fontFamily="Arial"
+                />
+        </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/frame3">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/mathsdept"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="Mathematics Department"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:textSize="23dp"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+                    android:fontFamily="Arial"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/frame4">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/mechdept"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="90dp"
+                android:text="Mechanical And Production Department"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="23dp"
+                android:shadowColor="#000000"
+                android:shadowRadius="2"
+                android:fontFamily="Arial"
+                />
+        </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/frame5">
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/nb"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="Physics, Chemistry And Bio-Engineering Department"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:textSize="23dp"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+                    android:fontFamily="Arial"
+                    />
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/frame7">
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="match_parent"
+                    android:scaleType="fitXY"
+                    android:layout_height="200dp"
+                    app:srcCompat="@drawable/mb"
+                    android:background="#0000"
+                    android:layout_marginTop="2dp"
+                    android:adjustViewBounds="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:text="Chemical Department"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:textSize="23dp"
+                    android:shadowColor="#000000"
+                    android:shadowRadius="2"
+                    android:fontFamily="Arial"
+                    />
+
+            </FrameLayout>
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/cse"
+                android:background="#0000"
+                android:layout_marginTop="2dp"
+                android:adjustViewBounds="true"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
